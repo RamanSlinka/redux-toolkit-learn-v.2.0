@@ -1,7 +1,11 @@
 import React from 'react'
+import {useAppSelector} from "../hooks/redux";
 
 const FirstName = () => {
-    return <div className='font-bold'>First Name</div>
+
+    const name = useAppSelector((state) => state.user.firstName)
+
+    return <div className='font-bold'>{name}</div>
 }
 
 export default FirstName
