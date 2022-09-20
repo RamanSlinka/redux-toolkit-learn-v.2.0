@@ -9,7 +9,7 @@ const User = () => {
     const dispatch = useAppDispatch()
 
     return (
-        <div className='flex flex-col'>
+        <div className='flex-column'>
             <input
                 onChange={(e:ChangeEvent<HTMLInputElement>) =>
                     dispatch(setFirstName(e.currentTarget.value))}

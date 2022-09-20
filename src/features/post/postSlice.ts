@@ -1,6 +1,6 @@
-import {createAsyncThunk, createSlice, PayloadAction} from "@reduxjs/toolkit";
+import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
 import axios from "axios";
-import {log} from "util";
+
 
 export interface PostItemType {
     userId: number
@@ -16,7 +16,6 @@ const initialState: Post = {
     posts: []
 }
 
-//https://jsonplaceholder.typicode.com/posts/
 
 export const getPosts = createAsyncThunk(
     'posts/getPosts',

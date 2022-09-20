@@ -11,9 +11,9 @@ function App() {
     const todos = useAppSelector(state => state.todo.todos)
 
     return (
-        <div className='min-h-screen h-full w-screen bg-indigo-400'>
-            <div className='container mx-auto px-4'>
-                <header className='flex gap-20 '>
+        <div className="bg-gradient">
+            <div className='container-xxl mx-auto px-4'>
+                <header className='flex-column gap-20 '>
                     <div className='w-1/3'>
                         <h1 className='font-bold my-5'>Redux Toolkit State Change</h1>
                         <User />
