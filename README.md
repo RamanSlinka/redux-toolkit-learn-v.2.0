@@ -7,9 +7,8 @@ React.Redux.Redux-toolkit.
 Store created.
 Custom hooks for redux.
 Redux toolkit slice.
-RTK query. Requests for obtaining data (query).
 JSON-server.
-Mutations.
+
 
 ### `yarn start`
 
